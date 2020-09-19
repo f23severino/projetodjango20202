@@ -1,0 +1,57 @@
+.botao  {
+margin:1px;
+margin-left:68px;
+padding:0px;}
+
+.botao a, .botao a:visited {  
+background: #666 url('../images/button/YT2.png') no-repeat center center;	
+width:350px;  
+height:28px;	
+display:block;	}
+
+.botao a:hover { 
+background: #666 url('../images/button/YT.png') no-repeat center center;}
+
+.botao2  {
+margin:1px;
+margin-bottom:1px;
+margin-left:68px;
+padding:0px;}
+
+.botao2 a, .botao2 a:visited {  
+background: #666 url('../images/button/foto.png') no-repeat center center;	
+width:350px;  
+height:28px;	
+display:block;	}
+
+.botao2 a:hover { 
+background: #666 url('../images/button/foto2.png') no-repeat center center;}
+
+
+.botao3  {
+margin:1px;
+margin-left:68px;
+padding:0px;}
+
+.botao3 a, .botao3 a:visited {  
+background: #666 url('../images/button/video.png') no-repeat center center;	
+width:350px;  
+height:28px;	
+display:block;	}
+
+.botao3 a:hover { 
+background: #666 url('../images/button/video2.png') no-repeat center center;}
+
+.botao4  {
+margin:1px;
+margin-left:68px;
+padding:0px;}
+
+.botao4 a, .botao4 a:visited {  
+background: #666 url('../images/button/novidade.png') no-repeat center center;	
+width:350px;  
+height:28px;	
+display:block;	}
+
+.botao4 a:hover { 
+background: #666 url('../images/button/novidade2.png') no-repeat center center;}

@@ -1,0 +1,208 @@
+<!-- Instrução para o navegador da web sobre qual versão do HTML a página está escrita. Não é uma tag.  -->
+<!DOCTYPE html>
+{% load static %}
+<!-- html5 -->
+
+<!-- Declara o idioma padrão de texto na pagina -->
+<html lang="pt-br">
+
+<!--O elemento <head> é um contêiner para todos os elementos head -->
+<!--O elemento <head> pode incluir um título para o documento, scripts, estilos, meta informações e mais.-->
+<head>
+
+  <!--Meta elements são tags usadas em documentos HTML e XHTML para fornecer metadados estruturados sobre uma página da Web. Eles fazem parte da seção principal de uma página da web. Vários elementos Meta com atributos diferentes podem ser usados ​​na mesma página -->
+
+  <!-- Para interpretar corretamente os caracteres acentuados -->
+  <!-- Importante para garantir a correta codificação dos caracteres -->
+  <meta charset="utf-8" />
+
+  <!-- Descrição do conteudo do site -->
+  <meta name="description" content="Campo de Instrução Marechal Hermes" />
+
+  <!--Define o autor da página -->
+  <meta name="author" content="Sd EP Severino" />
+
+  <!--Atualiza a pagina a cada 60 segundos -->
+  <!-- <meta http-equiv="refresh" content="60" /> -->
+
+  <!-- Adiciona icone ao titulo da guia. Sempre usar icones com a extensão .ico-->
+  <link rel="icon" href="{% static 'imagens/icons/logocimh.ico' %}" />
+
+  <!--Irá prepará a página para os diferentes dispositivos existentes -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Define o titulo da página -->
+  <title>{% block title %}Intranet CIMH{% endblock %}</title>
+
+  <!--Referencia arquivo estilo css com as formatações  -->
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+  <!--<link rel="stylesheet" type="text/css" href="css/reset.css">-->
+  <!-- <link rel="stylesheet" type="text/css" href="css/layout.css"   /> -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/menu.css' %}"  />
+  <!-- <link rel="stylesheet" type="text/css" href="css/estilos.css"  />-->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/botao.css' %}"  />
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="images/iconeCIMH.ico"  /> -->
+
+</head>
+
+<!-- A tag <body> define o corpo do documento.-->
+<!-- O elemento <body> contém todo o conteúdo de um documento HTML, como texto, hiperlinks, imagens, tabelas, listas etc.-->
+
+<body>
+
+  <!-- <a id="inicio_pagina"></a> -->
+
+  <!-- Tag h1-Header1/cabeçalho1, o mais importante dos headers(para destacar titulo e subtitulos) -->
+  <!-- <h1 class="titulo">Campo de Instrução Marechal Hermes</h1> -->
+
+  <!--O elemento <header> representa um contêiner para conteúdo introdutório ou um conjunto de links de navegação.
+  Um elemento <header> geralmente contém:
+  um ou mais elementos de cabeçalho (<h1> - <h6>)
+  logotipo ou ícone
+  informação de autoria
+  Você pode ter vários elementos <header> em um documento.
+  Nota: Uma tag <header> não pode ser colocada dentro de um <footer>, <address> ou outro elemento <header>.-->
+  <header>
+    <!-- Inserção de imagem -->
+    <img class="capa" src="{% static 'imagens/banners/cabecalho.jpg' %}" alt="Bandeira do Brasil com o Brasão do Brasil a esquerda, e o Simbolo
+    do Campo  de Instrução Marechal Hermes, base militar do Exército Brasileiro, a direita" title="Bandeira do Brasil" />
+  </header>
+  <!-- <a class= "fim_pagina" href="#fim_pagina">Ir para o Fim da Página</a> -->
+
+  <!--A tag <strong> é uma tag de frase. Define texto importante.
+  Dica: essa tag não está obsoleta, mas é possível obter um efeito mais rico com o CSS. -->
+  <!-- <strong> Pesquisar </strong> <input type = "text" name = "caixa de pesquisa" /> -->
+
+  <!--A tag <input> especifica um campo de entrada no qual o usuário pode inserir dados.
+  Os elementos <input> são usados ​​em um elemento <form> para declarar controles de entrada que permitem aos usuários inserir dados.
+  Um campo de entrada pode variar de várias maneiras, dependendo do atributo type. -->
+  <!-- <input type = "submit" value = "Pesquisar" /> -->
+
+  <!--  <strong> Filtros </strong> -->
+
+  <!--O elemento <select> é usado para criar uma lista suspensa.
+  As tags <option> dentro do elemento <select> definem as opções disponíveis na lista. -->
+  <!-- <select> -->
+
+  <!--O <optgroup> é usado para agrupar as opções relacionadas em uma lista suspensa.
+  Se você tiver uma longa lista de opções, grupos de opções relacionadas são mais fáceis de manipular para um usuário. -->
+  <!-- <optgroup label ="Filtrar por"> </optgroup> -->
+
+  <!-- <optgroup label ="Data"> -->
+  <!-- <option value = "filtro_data_qualquer_data" > Qualquer Data </option> -->
+  <!--<option value = "filtro_data_mais_antigo" > Mais Antigos </option> -->
+  <!--   <option value = "filtro_data_ultimas_publicacoes" > Últimas publicações </option>
+</optgroup>
+
+<optgroup label = "Idiomas">
+<option value = "filtro_idioma_portugues" > Português </option>
+<option value = "filtro_idioma_ingles" > Inglês </option>
+<option value = "filtro_idioma_qualquer_idioma"> Qualquer Idioma </option>
+</optgroup>
+
+<optgroup label = "Sem filtros">
+<option value = "filtro_nenhum_filtro" > Nenhum Filtro </option>
+</optgroup>
+
+</select>
+
+<input type = "radio" name = "conteudo_pesquisa" value = "filtro_tudo" checked> Tudo
+<input type = "radio" name = "conteudo_pesquisa" value = "filtro_imagens"> Imagens
+<input type = "radio" name = "conteudo_pesquisa" value = "filtro_videos"> Vídeos
+<input type = "radio" name = "conteudo_pesquisa" value = "filtro_textos"> Textos -->
+<div class="container">
+  <ul id="nav">
+    <li><a href="{% url 'index' %}">C I M H</a>
+      <ul class="subs">
+        <li><a href="/historico1/">Histórico</a></li>
+        <li><a href="/missao/">Missão</a></li>
+        <li><a href="/visao/">Visão</a></li>
+        <li><a href="/objetivos/">Objetivos</a></li>
+        <li><a href="/diretor/">Diretor</a></li>
+        <li><a href="/subdiretor/">Subdiretor</a></li>
+        <li><a href="/exdiretores/">Ex-Diretores</a></li>
+      </ul></li>
+      <li><a  href="#" onclick="return false;" >SEÇÕES</a>
+        <ul class="subs">
+          <li><a href="/militares/">S-1</a><li>
+            <li><a href="/inteligencia/">S-2</a></li>
+            <li><a href="/instrucao/">S-3</a></li>
+            <li><a href="/administracao/">S-4</a></li>
+            <li><a href="/relacoespublicas/">R P</a></li>
+          </ul>
+        </li>
+        <li><a href="{% static 'midia/arquivos/cardapio/cardapio.pdf' %}" target="_blank">CARDÁPIO</a></li>
+        <li><a href="/avisos/">AVISOS</a>
+          <li><a href="/aniversarios1/">ANIVERSÁRIOS</a></li>
+          <li><a href="https://www.google.com/maps/place/Campo+de+Instru%C3%A7%C3%A3o+Marechal+Hermes/@-26.1075074,-50.3165563,15z/data=!4m5!3m4!1s0x0:0x5a30a0331b2a6958!8m2!3d-26.1075074!4d-50.3165563" target="_blank">LOCALIZAÇÃO</a></li>
+          <li><a class="hsubs" href="#" onclick="return false;" >INSTITUCIONAL</a>
+            <ul class="subs">
+              <li><a href="http://www.eb.mil.br/" target = " _blank " > Exército </a></li>
+              <li><a href="http://10.41.76.13/cimh/" target = " _blank " > WebSite CIMH </a></li>
+              <li><a href="http://www.eb.mil.br/web/imprensa/resenha" target= " _blank" > Resenha </a></li>
+              <li><a href="http://www.eb.mil.br/web/interno/informex" target= " _blank" > Informex </a></li>
+              <li><a href="http://www.dgp.eb.mil.br/" target = " _blank " > D G P </a></li>
+              <li><a href="https://www.cpex.eb.mil.br/" target = " _blank " > C P Ex</a></li>
+              <li><a href="http://www.fhe.org.br/" target = " _blank " > F H E </a></li>
+              <li><a href="http://www.colog.eb.mil.br/" target = " _blank " > Colog </a></li>
+              <li><a href="http://www.5rm.eb.mil.br/" target = " _blank " > 5ª R M </a></li>
+            </ul></li>
+            <li><a class="hsubs" href="#" onclick="return false;" >TELEFONES</a>
+              <ul class="subs">
+                <li><a href="/telefones/">MILITAR</a></li>
+                <li><a href="/telefones2/">CIVIL</a></li>
+              </ul></li>
+              <li><a class="hsubs" href="#" onclick="return false;" >B I</a>
+                <ul class="subs">
+                  {% if user.is_authenticated %}
+                  <li><a href="/bi20191/">2019</a></li>
+                  <li><a href="/bi20181/">2018</a></li>
+                  <li><a href="/bi20171/">2017</a></li>
+                  <li><a href="/bi20161/">2016</a></li>
+                  <li><a href="/bi20151/">2015</a></li>
+                  {% else %}
+                  <li><a href="{% static 'imagens/banners/acessorestrito.jpg' %}">2019</a></li>
+                  <li><a href="{% static 'imagens/banners/acessorestrito.jpg' %}">2018</a></li>
+                  <li><a href="{% static 'imagens/banners/acessorestrito.jpg' %}">2017</a></li>
+                  <li><a href="{% static 'imagens/banners/acessorestrito.jpg' %}">2016</a></li>
+                  <li><a href="{% static 'imagens/banners/acessorestrito.jpg' %}">2015</a></li>
+                  {% endif %}
+                </ul></li>
+                <li><a class="hsubs" href="#" onclick="return false;" >SISTEMAS</a>
+                  <ul class="subs">
+                    <li><a href="http://10.41.76.5" target = " _blank " > SPED </a></li>
+                    <li><a href="http://10.41.76.14" target = " _blank " > SISBOL </a></li>
+                    {% if not user.is_authenticated %}
+                    <li><a href="/accounts/login/">LOGIN</a></li>
+                    {% else %}
+                    <li><a href="/accounts/logout/">LOGOUT</a></li>
+                    {% endif %}
+                  </ul></li>
+                  <li><a href="{% static 'midia/arquivos/escala/escala.pdf' %}" target="_blank">ESCALA</a></li>
+                  <div id="lavalamp"></div>
+                </ul>
+              </div>
+            {% block content %}
+            {% endblock %}
+            <br>
+            <br>
+            <br>
+            <!-- <ul id="botao_inicio" style="padding-left: 0; list-style-type: none; position: static; display: inline; float: right;">
+            <li style=" border: 2px solid white;"><a style=" color: black; text-decoration: none; padding: 0; " href="#inicio_pagina"><small><i class="material-icons">arrow_upward</i>IR PARA O INÍCIO </small></a></li>
+          </ul> -->
+          <br>
+          <br>
+          <footer>
+            <address>
+              Endereço:
+              Av. Rigesa, 000 - Centro, Três Barras - SC, 89490-000. <br>
+              <!-- Site desenvolvido por: Sd EP Severino -->
+              Copyright © 2015-2019 Sd EP Severino
+            </address>
+          </footer>
+          <!-- <a id="fim_pagina"></a> -->
+        </body>
+        </html>

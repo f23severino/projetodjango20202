@@ -1,0 +1,65 @@
+{% extends 'blog/base.html' %}
+{% block title %}Boletins Internos Janeiro 2019{% endblock %}
+{% block content %}
+<div  class="bloco_tabela_boletins_2019">
+  <h3 class="titulo_tabela_boletins_2019">BOLETINS DE JANEIRO DE 2019</h3>
+  <div class="opcao_voltar_pagina_principal_boletins_2019">
+  {% load static %}
+  <a href="/bi20191/"><img src="{% static 'imagens/button/voltar.png' %}" alt="Imagem de um botão que tem escrito nele "voltar". Clicando neste botão ele faz retornar para página principal dos meses dos boletins, onde mostra todos os meses do ano" title="Opção voltar"></a>
+  </div>
+  <br>
+  <br>
+  <table class="tabela_boletins_2019"> <!--Uma tabela HTML é definida com a <table>tag.-->
+    <tr> <!-- linha -->
+      <th class="th_tab_bi_2019"> ORDEM </th> <!-- Cabeçalho -->
+      <th class="th_tab_bi_2019"> Nº BI </th>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2019_1"> 01 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2019_2"> <a href="{% static 'midia/arquivos/boletins/bi2019/janeiro2019/2019-01-02_O_001_boletim_interno.pdf' %}" target="_blank"> BI DIA 02 JAN 2019 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2019_1"> 02 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2019_2"> <a href="{% static 'midia/arquivos/boletins/bi2019/janeiro2019/2019-01-04_O_002_boletim_interno.pdf' %}" target="_blank"> BI DIA 04 JAN 2019 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2019_1"> 03 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2019_2"> <a href="{% static 'midia/arquivos/boletins/bi2019/janeiro2019/2019-01-08_O_003_boletim_interno.pdf' %}" target="_blank"> BI DIA 08 JAN 2019 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2019_1"> 04 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2019_2"> <a href="{% static 'midia/arquivos/boletins/bi2019/janeiro2019/2019-01-11_O_004_boletim_interno.pdf' %}" target="_blank"> BI DIA 11 JAN 2019 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2019_1"> 05 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2019_2"> <a href="{% static 'midia/arquivos/boletins/bi2019/janeiro2019/2019-01-15_O_005_boletim_interno.pdf' %}" target="_blank"> BI DIA 15 JAN 2019 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2019_1"> 06 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2019_2"> <a href="{% static 'midia/arquivos/boletins/bi2019/janeiro2019/2019-01-18_O_006_boletim_interno.pdf' %}" target="_blank"> BI DIA 18 JAN 2019 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2019_1"> 07 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2019_2"> <a href="{% static 'midia/arquivos/boletins/bi2019/janeiro2019/2019-01-22_O_007_boletim_interno.pdf' %}" target="_blank"> BI DIA 22 JAN 2019 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2019_1"> 08 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2019_2"> <a href="{% static 'midia/arquivos/boletins/bi2019/janeiro2019/2019-01-25_O_008_boletim_interno.pdf' %}" target="_blank"> BI DIA 25 JAN 2019 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2019_1"> 09 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2019_2"> <a href="{% static 'midia/arquivos/boletins/bi2019/janeiro2019/2019-01-29_O_009_boletim_interno.pdf' %}" target="_blank"> BI DIA 29 JAN 2019 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2019_1"> 10 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2019_2"> <a href="{% static 'midia/arquivos/boletins/bi2019/janeiro2019/2019-01-31_O_010_boletim_interno.pdf' %}" target="_blank"> BI DIA 31 JAN 2019 </a> </td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+{% endblock %}

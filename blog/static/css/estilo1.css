@@ -1,0 +1,243 @@
+.titulo { /*Define os titulos das páginas */
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+
+header { /*Define o estilo do header em todas as páginas */
+  background-color: #000000;
+  display: block;
+}
+
+.capa { /*Define a capa das páginas */
+  height: 200px;
+  width: 98.5%;
+  padding: 10px;
+}
+
+body { /*Define as configurações do corpo da página*/
+  background-image: url(../imagens/capas/fundo3.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.imagem_tropa_cimh { /*Define o estilo da imagem tropa_cimh na pagina index  */
+  position: absolute;
+  display: block;
+  margin-left: 25%;
+}
+
+.blindado_m109_1 { /*Define o estilo da imagem blindado_m109 na pagina index  */
+  position: absolute;
+  display: block;
+  margin-left: 25%;
+}
+
+.militar01 { /*Define o estilo da imagem militar01 na pagina index  */
+  position: absolute;
+  display: block;
+  margin-left: 10%;
+}
+
+.titulo_tabela_militares { /*Define o estilo do titulo tabela militares na pagina militares */
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+
+.bloco_tabela_militares { /*Define o estilo da div bloco_militares que formata a tabela militares na pagina militares */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: auto;
+}
+
+.tabela_militares { /*Define o estilo do titulo tabela militares na pagina militares */
+  border-style: double;
+  /*margin-left: 37%;*/
+  margin: 0 auto;
+}
+
+.th_tab_mil { /*Th tabela Telefone <!-- Cabeçalho --> */
+  border-style: outset;
+  /* background-color: #000000;*/
+  /*margin: 5px 5px 5px 5px;*/
+}
+
+.td_tab_mil1 { /*Td tabela Telefone <!-- Célula/Coluna--> */
+  border-style: inset;
+  text-align: center;
+  /* background-color: white;*/
+
+}
+
+.td_tab_mil2 { /*Td tabela Telefone <!-- Célula/Coluna--> */
+  border-style: inset;
+  /* text-align: center; */
+  /* background-color: white;*/
+
+}
+
+.titulo_org_mil { /*Define o estilo do titulo tabela telefone na pagina telefones */
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+
+.bloco_tabela_telefone { /*Define o estilo da div bloco_telefone que formata a tabela telefones na pagina telefones */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: auto;
+}
+
+.tabela_telefone { /*Define o estilo da tabela telefone na pagina telefone */
+  border-style: double;
+  /*margin-left: 37%;*/
+  margin: 0 auto;
+}
+
+.th_tab_tel { /*Th tabela Telefone*/
+  border-style: outset;
+  /* background-color: #000000;*/
+  /*margin: 5px 5px 5px 5px;*/
+}
+
+.td_tab_tel { /*Td tabela Telefone*/
+  border-style: inset;
+  /* background-color: white;*/
+}
+
+tr:nth-child(even) { /* Define o estilo zebrado */
+
+}
+
+.link_cimh { /* Define o estilo do link com a localização do cimh na pagina index */
+  color: blue;
+  padding: 0px;
+}
+
+.link_cimh:hover { /* Define o estilo do link com a localização do cimh na pagina index */
+  background-color: white;
+}
+
+/* .bloco_lista_militares { /*Define o estilo da div bloco_lista_militares que formata a lista militares na pagina militares */ */
+  /* position: absolute; */
+  /* display: block; */
+  /* border: 3px solid #000000; */
+  /* margin: 0px 580px 0px 580px; */
+  /* position: relative; */
+  /* display: block; */
+  /* border: 3px solid #000000; */
+  /* margin: auto; */
+/* } */
+
+/* .li_tab_mil { /*li lista militar na pagina militar*/ */
+  /* border-style: inset; */
+/* } */
+
+/* .titulo_militares { /*Define o estilo do titulo lista militar na pagina militar */ */
+  /* text-align: center; */
+  /* font-family: 'Playfair Display', serif; */
+  /* font-size: 22px; */
+/* } */
+
+/* .lista_militares { /*Define o estilo da lista militar na pagina militar */ */
+  /* border-style: double; */
+  /*margin-left: 37%;*/
+  /* margin: 0 auto; */
+/* } */
+
+.bloco_descricao_historico { /*Define o estilo da section bloco_descricao_historico que formata o texto com o historico na pagina historico */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: 0px 140px 0px 160px;
+  text-align: justify;
+}
+
+.bloco_descricao_missao { /*Define o estilo da section bloco_descricao_historico que formata o texto com o historico na pagina historico */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+
+.bloco_descricao_visao { /*Define o estilo da section bloco_descricao_historico que formata o texto com o historico na pagina historico */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+
+.bloco_descricao_objetivos { /*Define o estilo da section bloco_descricao_historico que formata o texto com o historico na pagina historico */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+
+.bloco_descricao_avisos  { /*Define o estilo da section bloco_descricao_historico que formata o texto com o historico na pagina historico */
+  /* position: relative; */
+  /* list-style-type: none; */
+  /* border: 3px solid #000000; */
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+
+.fotos_avisos_grupo {
+  display: inline-flex;
+}
+
+.fotos_avisos_subgrupo {
+
+}
+
+.img_bda_1 {	/* img 1 do bloco_descricao_avisos */
+  margin-right: auto;
+  margin-left: auto;
+  margin: 10px;
+  border: 1px solid #ccc;
+  max-width: 220px;
+  max-height: 200px;
+}
+
+.container {
+  position: relative;
+  display: block;
+  margin-left: 13%;
+  margin-top: 1%;
+}
+
+/*.fim_pagina {
+position: absolute;
+display: block;
+/* border: 3px solid #000000; */
+/* margin-left: 90%;
+} */
+
+.material-icons {
+  font-size: 23px;
+  vertical-align: bottom;
+}
+
+/* #botao_fim:hover{
+background-color: #A9A9A9;
+} */
+
+footer {
+  text-align: center;
+  color: #808080;
+  opacity: 0.9;
+  position: ;
+}
+
+address { /* Define o estilo do address em todas as páginas */
+  text-align: center;
+  color: #808080;
+  opacity: 0.9;
+}

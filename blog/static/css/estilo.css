@@ -1,0 +1,794 @@
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Titulo - Header - Capa - Body da Página Base xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.titulo { /*Define os titulos das páginas */
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 23px;
+  position: relative;
+}
+header { /*Define o estilo do header em todas as páginas */
+  background-color: #000000;
+  display: block;
+}
+.capa { /*Define a capa das páginas */
+  height: 200px;
+  width: 98.5%;
+  padding: 10px;
+}
+body { /*Define as configurações do corpo da página*/
+  background-image: url(../imagens/capas/fundo3.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Tabela Militares Página S1 - Seção de Pessoal xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.bloco_tabela_militares { /*Define o estilo da div bloco_militares que formata a tabela militares na pagina militares */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: auto;
+}
+.titulo_tabela_militares { /*Define o estilo do titulo tabela militares na pagina militares */
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+.tabela_militares { /*Define o estilo do titulo tabela militares na pagina militares */
+  border-style: double;
+  /*margin-left: 37%;*/
+  margin: 0 auto;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Tabela telefones e definições xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.bloco_tabela_telefone { /*Define o estilo da div bloco_telefone que formata a tabela telefones na pagina telefones */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: auto;
+}
+.bloco_tabela_telefones2 {
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: auto;
+}
+.th_tab_mil { /*Th tabela Telefone <!-- Cabeçalho --> */
+  border-style: outset;
+  /* background-color: #000000;*/
+  /*margin: 5px 5px 5px 5px;*/
+}
+.td_tab_mil1 { /*Td tabela Telefone <!-- Célula/Coluna--> */
+  border-style: inset;
+  text-align: center;
+  /* background-color: white;*/
+}
+.td_tab_mil2 { /*Td tabela Telefone <!-- Célula/Coluna--> */
+  border-style: inset;
+  /* text-align: center; */
+  /* background-color: white;*/
+}
+.titulo_org_mil { /*Define o estilo do titulo tabela telefone na pagina telefones */
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+.titulo_org_civ {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+.tabela_telefone { /*Define o estilo da tabela telefone na pagina telefone */
+  border-style: double;
+  /*margin-left: 37%;*/
+  margin: 0 auto;
+}
+.th_tab_tel { /*Th tabela Telefone*/
+  border-style: outset;
+  /* background-color: #000000;*/
+  /*margin: 5px 5px 5px 5px;*/
+}
+.td_tab_tel { /*Td tabela Telefone*/
+  border-style: inset;
+  /* background-color: white;*/
+}
+tr:nth-child(even) { /* Define o estilo zebrado */
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Link localização xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.link_cimh { /* Define o estilo do link com a localização do cimh na pagina index */
+  color: blue;
+  padding: 0px;
+}
+.link_cimh:hover { /* Define o estilo do link com a localização do cimh na pagina index */
+  background-color: white;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Páginas Histórico - Missão - Visão - Objetivos xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.bloco_descricao_historico1 { /*Define o estilo da section bloco_descricao_missao que formata o texto sobre a missao na pagina missão */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+.bloco_descricao_missao { /*Define o estilo da section bloco_descricao_missao que formata o texto sobre a missao na pagina missão */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+.bloco_descricao_visao { /*Define o estilo da section bloco_descricao_visao que formata o texto com o texto sobre visão na pagina visão */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+.bloco_descricao_objetivos { /*Define o estilo da section bloco_descricao_objetivos que formata o texto com os objetivos na pagina objetivos */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página Aniversários xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.bloco_descricao_aniversarios { /*Define o estilo da section bloco_descricao_aniversarios que formata o texto com relação a pagina de aniversarios*/
+  position: relative;
+  list-style-type: none;
+  /* border: 3px solid #000000; */
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+.bloco_meses_aniversarios {
+  position: relative;
+  list-style-type: none;
+  /* border: 3px solid #000000; */
+  margin: 0px 400px 0px 400px;
+  text-align: center;
+}
+.fotos_meses_aniversarios_subgrupo { /* edita a posição das fotos na pagina de avisos */
+  /* display: inline-flex; */
+}
+.opcao_voltar_pagina_principal_aniversarios { /* Edita o botão que faz voltar para página principal dos aniversários  */
+  display: inline-flex;
+  position: relative;
+  /* border: 3px solid #000000; */
+  margin: 0px 220px 0px 165px;
+}
+.bloco_tabela_aniversariantes { /*Define o estilo da div bloco_tabela_aniversariantes_janeiro que formata a tabela tabela_aniversariantes_janeiro na pagina de aniversariantes de janeiro */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: auto;
+}
+.titulo_tabela_aniversariantes { /*Define o estilo do titulo tabela tabela_aniversariantes_janeiro na pagina aniversariantes de janeiro */
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+.tabela_aniversariantes { /*Define o estilo do titulo tabela aniversariantes de janeiro na pagina de aniversários de janeiro */
+  border-style: double;
+  /*margin-left: 37%;*/
+  margin: 0 auto;
+}
+.th_tab_ani { /*Th tabela aniversários de janeiro <!-- Cabeçalho --> */
+  border-style: outset;
+  /* background-color: #000000;*/
+  /*margin: 5px 5px 5px 5px;*/
+}
+.td_tab_ani_1 { /*Td tabela aniversarios de janeiro <!-- Célula/Coluna--> */
+  border-style: inset;
+  text-align: center;
+  /* background-color: white;*/
+}
+.td_tab_ani_2 { /*Td tabela aniversários de janeiro <!-- Célula/Coluna--> */
+  border-style: inset;
+  /* text-align: center; */
+  /* background-color: white;*/
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página Login xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.bloco_descricao_login {
+  position: relative;
+  list-style-type: none;
+  /* border: 3px solid #000000; */
+  margin: 0px 400px 0px 400px;
+  text-align: center;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página Boletins 2015 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.titulo_boletins_2015 { /*Define os titulos das páginas boletins */
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 23px;
+  position: relative;
+}
+.bloco_descricao_boletins_2015 { /*Define o estilo da section bloco_descricao_boletins que formata o texto com relação a pagina de boletins*/
+  position: relative;
+  list-style-type: none;
+  /* border: 3px solid #000000; */
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+.bloco_meses_boletins_2015 {
+  position: relative;
+  list-style-type: none;
+  /* border: 3px solid #000000; */
+  margin: 0px 400px 0px 400px;
+  text-align: center;
+}
+.fotos_boletins_2015_subgrupo { /* edita a posição das fotos na pagina de avisos */
+  /* display: inline-flex; */
+}
+.bloco_tabela_boletins_2015 { /*Define o estilo da div bloco_tabela_boletins_2015 que formata a tabela_boletins_2015 das paginas dos meses dos boletins 2018 */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: auto;
+}
+.titulo_tabela_boletins_2015 { /*Define o estilo do titulo tabela_boletins_2015 na pagina boletins 2015 */
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 23px;
+  position: relative;
+}
+.opcao_voltar_pagina_principal_boletins_2015 { /* Edita o botão que faz voltar para página principal dos boletins de 2015  */
+  display: inline-flex;
+  position: relative;
+  /* border: 3px solid #000000; */
+  margin: 0px 220px 0px 165px;
+}
+.tabela_boletins_2015 { /*Define as configurações das tabelas boletins 2015 */
+  border-style: double;
+  /*margin-left: 37%;*/
+  margin: 0 auto;
+}
+.th_tab_bi_2015 { /*Th tabela boletins 2015 <!-- Cabeçalho --> */
+  border-style: outset;
+  /* background-color: #000000;*/
+  /*margin: 5px 5px 5px 5px;*/
+}
+.td_tab_bi_2015_1 { /*Td tabela boletins 2015 <!-- Célula/Coluna--> */
+  border-style: inset;
+  text-align: center;
+  /* background-color: white;*/
+}
+.td_tab_bi_2015_2 { /*Td tabela boletins 2015 <!-- Célula/Coluna--> */
+  border-style: inset;
+  /* text-align: center; */
+  /* background-color: white;*/
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página Boletins 2016 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.titulo_boletins_2016 { /*Define os titulos das páginas boletins */
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 23px;
+  position: relative;
+}
+.bloco_descricao_boletins_2016 { /*Define o estilo da section bloco_descricao_boletins que formata o texto com relação a pagina de boletins*/
+  position: relative;
+  list-style-type: none;
+  /* border: 3px solid #000000; */
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+.bloco_meses_boletins_2016 {
+  position: relative;
+  list-style-type: none;
+  /* border: 3px solid #000000; */
+  margin: 0px 400px 0px 400px;
+  text-align: center;
+}
+.fotos_boletins_2016_subgrupo { /* edita a posição das fotos na pagina de avisos */
+  /* display: inline-flex; */
+}
+.bloco_tabela_boletins_2016 { /*Define o estilo da div bloco_tabela_boletins_2018 que formata a tabela_boletins_2016 das paginas dos meses dos boletins 2016 */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: auto;
+}
+.titulo_tabela_boletins_2016 { /*Define o estilo do titulo tabela_boletins_2016 na pagina boletins 2016 */
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+.opcao_voltar_pagina_principal_boletins_2016 { /* Edita o botão que faz voltar para página principal dos boletins de 2016  */
+  display: inline-flex;
+  position: relative;
+  /* border: 3px solid #000000; */
+  margin: 0px 220px 0px 165px;
+}
+.tabela_boletins_2016 { /*Define as configurações das tabelas boletins 2016 */
+  border-style: double;
+  /*margin-left: 37%;*/
+  margin: 0 auto;
+}
+.th_tab_bi_2016 { /*Th tabela boletins 2016 <!-- Cabeçalho --> */
+  border-style: outset;
+  /* background-color: #000000;*/
+  /*margin: 5px 5px 5px 5px;*/
+}
+.td_tab_bi_2016_1 { /*Td tabela boletins 2016 <!-- Célula/Coluna--> */
+  border-style: inset;
+  text-align: center;
+  /* background-color: white;*/
+}
+.td_tab_bi_2016_2 { /*Td tabela boletins 2016 <!-- Célula/Coluna--> */
+  border-style: inset;
+  /* text-align: center; */
+  /* background-color: white;*/
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página Boletins 2017 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.titulo_boletins_2017 { /*Define os titulos das páginas boletins */
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 23px;
+  position: relative;
+}
+.bloco_descricao_boletins_2017 { /*Define o estilo da section bloco_descricao_boletins que formata o texto com relação a pagina de boletins*/
+  position: relative;
+  list-style-type: none;
+  /* border: 3px solid #000000; */
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+.bloco_meses_boletins_2017 {
+  position: relative;
+  list-style-type: none;
+  /* border: 3px solid #000000; */
+  margin: 0px 400px 0px 400px;
+  text-align: center;
+}
+.fotos_boletins_2017_subgrupo { /* edita a posição das fotos na pagina de avisos */
+  /* display: inline-flex; */
+}
+.bloco_tabela_boletins_2017 { /*Define o estilo da div bloco_tabela_boletins_2017 que formata a tabela_boletins_2017 das paginas dos meses dos boletins 2017 */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: auto;
+}
+.titulo_tabela_boletins_2017 { /*Define o estilo do titulo tabela_boletins_2017 na pagina boletins 2017 */
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+.opcao_voltar_pagina_principal_boletins_2017 { /* Edita o botão que faz voltar para página principal dos boletins de 2017  */
+  display: inline-flex;
+  position: relative;
+  /* border: 3px solid #000000; */
+  margin: 0px 220px 0px 165px;
+}
+.tabela_boletins_2017 { /*Define as configurações das tabelas boletins 2017 */
+  border-style: double;
+  /*margin-left: 37%;*/
+  margin: 0 auto;
+}
+.th_tab_bi_2017 { /*Th tabela boletins 2017 <!-- Cabeçalho --> */
+  border-style: outset;
+  /* background-color: #000000;*/
+  /*margin: 5px 5px 5px 5px;*/
+}
+.td_tab_bi_2017_1 { /*Td tabela boletins 2017 <!-- Célula/Coluna--> */
+  border-style: inset;
+  text-align: center;
+  /* background-color: white;*/
+}
+.td_tab_bi_2017_2 { /*Td tabela boletins 2017 <!-- Célula/Coluna--> */
+  border-style: inset;
+  /* text-align: center; */
+  /* background-color: white;*/
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página Boletins 2018 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.titulo_boletins_2018 { /*Define os titulos das páginas boletins */
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 23px;
+  position: relative;
+}
+.bloco_descricao_boletins_2018 { /*Define o estilo da section bloco_descricao_boletins que formata o texto com relação a pagina de boletins*/
+  position: relative;
+  list-style-type: none;
+  /* border: 3px solid #000000; */
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+.bloco_meses_boletins_2018 {
+  position: relative;
+  list-style-type: none;
+  /* border: 3px solid #000000; */
+  margin: 0px 400px 0px 400px;
+  text-align: center;
+}
+.fotos_boletins_2018_subgrupo { /* edita a posição das fotos na pagina de avisos */
+  /* display: inline-flex; */
+}
+.bloco_tabela_boletins_2018 { /*Define o estilo da div bloco_tabela_boletins_2018 que formata a tabela_boletins_2018 das paginas dos meses dos boletins 2018 */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: auto;
+}
+.titulo_tabela_boletins_2018 { /*Define o estilo do titulo tabela_boletins_2018 na pagina boletins 2018 */
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+.opcao_voltar_pagina_principal_boletins_2018 { /* Edita o botão que faz voltar para página principal dos boletins de 2018  */
+  display: inline-flex;
+  position: relative;
+  /* border: 3px solid #000000; */
+  margin: 0px 220px 0px 165px;
+}
+.tabela_boletins_2018 { /*Define as configurações das tabelas boletins 2018 */
+  border-style: double;
+  /*margin-left: 37%;*/
+  margin: 0 auto;
+}
+.th_tab_bi_2018 { /*Th tabela boletins 2018 <!-- Cabeçalho --> */
+  border-style: outset;
+  /* background-color: #000000;*/
+  /*margin: 5px 5px 5px 5px;*/
+}
+.td_tab_bi_2018_1 { /*Td tabela boletins 2018 <!-- Célula/Coluna--> */
+  border-style: inset;
+  text-align: center;
+  /* background-color: white;*/
+}
+.td_tab_bi_2018_2 { /*Td tabela boletins 2018 <!-- Célula/Coluna--> */
+  border-style: inset;
+  /* text-align: center; */
+  /* background-color: white;*/
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página Boletins 2019 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.titulo_boletins_2019 { /*Define os titulos das páginas boletins */
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 23px;
+  position: relative;
+}
+.bloco_descricao_boletins_2019 { /*Define o estilo da section bloco_descricao_boletins que formata o texto com relação a pagina de boletins*/
+  position: relative;
+  list-style-type: none;
+  /* border: 3px solid #000000; */
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+.bloco_meses_boletins_2019 {
+  position: relative;
+  list-style-type: none;
+  /* border: 3px solid #000000; */
+  margin: 0px 400px 0px 400px;
+  text-align: center;
+}
+.fotos_boletins_2019_subgrupo { /* edita a posição das fotos na pagina de avisos */
+  /* display: inline-flex; */
+}
+.bloco_tabela_boletins_2019 { /*Define o estilo da div bloco_tabela_boletins_2018 que formata a tabela_boletins_2019 das paginas dos meses dos boletins 2019 */
+  position: relative;
+  display: block;
+  /* border: 3px solid #000000; */
+  margin: auto;
+}
+.titulo_tabela_boletins_2019 { /*Define o estilo do titulo tabela_boletins_2019 na pagina boletins 2019 */
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 23px;
+  position: relative;
+}
+.opcao_voltar_pagina_principal_boletins_2019 { /* Edita o botão que faz voltar para página principal dos boletins de 2019  */
+  display: inline-flex;
+  position: relative;
+  /* border: 3px solid #000000; */
+  margin: 0px 220px 0px 165px;
+}
+.tabela_boletins_2019 { /*Define as configurações das tabelas boletins 2019 */
+  border-style: double;
+  /*margin-left: 37%;*/
+  margin: 0 auto;
+}
+.th_tab_bi_2019 { /*Th tabela boletins 2019 <!-- Cabeçalho --> */
+  border-style: outset;
+  /* background-color: #000000;*/
+  /*margin: 5px 5px 5px 5px;*/
+}
+.td_tab_bi_2019_1 { /*Td tabela boletins 2019 <!-- Célula/Coluna--> */
+  border-style: inset;
+  text-align: center;
+  /* background-color: white;*/
+}
+.td_tab_bi_2019_2 { /*Td tabela boletins 2019 <!-- Célula/Coluna--> */
+  border-style: inset;
+  /* text-align: center; */
+  /* background-color: white;*/
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página Avisos xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.bloco_descricao_avisos  { /*Define o estilo da section bloco_descricao_avisos que formata o texto com os avisos na pagina avisos */
+  position: relative;
+  /* list-style-type: none; */
+  /* border: 3px solid #000000; */
+  margin: 0px 140px 0px 160px;
+  text-align: justify;
+}
+.fotos_avisos_grupo { /* edita a posição das fotos na pagina de avisos */
+  display: inline-flex;
+  position: relative;
+  /* border: 3px solid #000000; */
+  /* margin: 0px 0px 0px s0px; */
+}
+.fotos_avisos_subgrupo { /* edita a posição das fotos na pagina de avisos */
+  /* display: inline-flex; */
+}
+.img_bda_1 {	/* img 1 do bloco_descricao_avisos */
+  margin-right: auto;
+  margin-left: auto;
+  margin: 10px;
+  border: 1px solid #ccc;
+  max-width: 220px;
+  max-height: 200px;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página inteligencia xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.bloco_descricao_inteligencia { /*Define o estilo da section bloco_descricao_inteligencia que formata o texto com relação a pagina de inteligencia */
+  position: relative;
+  /* list-style-type: none; */
+  /* border: 3px solid #000000; */
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+.fotos_inteligencia_grupo { /* edita a posição das fotos na pagina de avisos */
+  display: inline-flex;
+  position: relative;
+  /* border: 3px solid #000000; */
+  /* margin: 0px 0px 0px s0px; */
+}
+.fotos_inteligencia_subgrupo { /* edita a posição das fotos na pagina de avisos */
+  /* display: inline-flex; */
+}
+.sobre_documento_inteligencia {
+  position: relative;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 15px;
+}
+.img_s2_1 { /* img 1 da página de inteligencia */
+  margin-right: auto;
+  margin-left: auto;
+  margin: 30px;
+  border: 1px solid #ccc;
+  /* max-width: 220px; */
+  /* max-height: 200px; */
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página diretor xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.foto_diretor { /* edita a foto do diretor na pagina diretor */
+  position: relative;
+  margin: 0px 450px 0px 390px;
+}
+.sobre_diretor {
+  position: relative;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 18px;
+  /* margin: 0px 400px 0px 460px; */
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página Subdiretor xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.foto_subdiretor { /* edita a foto do diretor na pagina diretor */
+  position: relative;
+  margin: 0px 400px 0px 460px;
+}
+.sobre_subdiretor {
+  position: relative;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 18px;
+  /* margin: 0px 400px 0px 460px; */
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página ex-diretores xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.foto_exdiretores {
+  position: relative;
+  margin: 0px 220px 0px 220px;
+}
+.bloco_tabela_exdiretores{ /*Define o estilo da div bloco_tabela_exdiretores que formata a tabela_exdiretores na pagina dos exdiretores */
+   position: relative;
+   display: block;
+   /* border: 3px solid #000000; */
+   margin: auto;
+}
+.titulo_tabela_exdiretores { /*Define o estilo do titulo tabela_exdiretores na pagina ex_diretores */
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+.tabela_exdiretores { /*Define o estilo do titulo tabela ex_diretores na pagina ex_diretores */
+  border-style: double;
+  /*margin-left: 37%;*/
+  margin: 0 auto;
+}
+.th_tab_exdir { /*Th tabela aniversários de janeiro <!-- Cabeçalho --> */
+  border-style: outset;
+  /* background-color: #000000;*/
+  /*margin: 5px 5px 5px 5px;*/
+}
+.td_tab_exdir1 {  /*Td tabela aniversarios de janeiro <!-- Célula/Coluna--> */
+    border-style: inset;
+    text-align: center;
+    /* background-color: white;*/
+}
+.td_tab_exdir2 {  /*Td tabela aniversarios de janeiro <!-- Célula/Coluna--> */
+    border-style: inset;
+    /* text-align: center; */
+    /* background-color: white;*/
+}
+.td_tab_exdir3 {  /*Td tabela aniversarios de janeiro <!-- Célula/Coluna--> */
+    border-style: inset;
+    /* text-align: center; */
+    /* background-color: white;*/
+}
+.td_tab_exdir4 {  /*Td tabela aniversarios de janeiro <!-- Célula/Coluna--> */
+    border-style: inset;
+    text-align: center;
+    /* background-color: white;*/
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Definições do Final das Páginas e da Base xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+footer { /* Define o estilo do final da página */
+  text-align: center;
+  color: #808080;
+  opacity: 0.9;
+  position: relative;
+}
+address { /* Define o estilo do address em todas as páginas */
+  text-align: center;
+  color: #808080;
+  opacity: 0.9;
+}
+.sobre_aviso_pagina_principal {
+  position: relative;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  /* margin: 0px 400px 0px 460px; */
+}
+.material-icons { /* Define o estilo dos icons das páginas */
+  font-size: 23px;
+  vertical-align: bottom;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página de Instrução xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.bloco_descricao_instrucao { /*Define o estilo da section bloco_descricao_instrucao que formata o texto com relação a pagina de instrução */
+  position: relative;
+  /* list-style-type: none; */
+  /* border: 3px solid #000000; */
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+.fotos_instrucao_grupo {
+  display: inline-flex;
+  position: relative;
+  /* border: 3px solid #000000; */
+  /* margin: 0px 0px 0px s0px; */
+}
+.fotos_instrucao_subgrupo {
+}
+.sobre_documento_instrucao {
+  position: relative;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 15px;
+}
+.img_s3_1 {
+  margin-right: auto;
+  margin-left: auto;
+  margin: 30px;
+  border: 1px solid #ccc;
+  /* max-width: 220px; */
+  /* max-height: 200px; */
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página RP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.bloco_descricao_relacoespublicas { /*Define o estilo da section bloco_descricao_relacoespublicas que formata o texto com relação a pagina de relacoespublicas */
+  position: relative;
+  /* list-style-type: none; */
+  /* border: 3px solid #000000; */
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+.fotos_rp_grupo {
+  display: inline-flex;
+  position: relative;
+  /* border: 3px solid #000000; */
+  /* margin: 0px 0px 0px s0px; */
+}
+.fotos_rp_subgrupo {
+}
+.sobre_documento_rp {
+  position: relative;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 15px;
+}
+.img_rp_1 {
+  margin-right: auto;
+  margin-left: auto;
+  margin: 30px;
+  border: 1px solid #ccc;
+  /* max-width: 220px; */
+  /* max-height: 200px; */
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxx Página administração xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.bloco_descricao_administracao { /*Define o estilo da section bloco_descricao_administracao que formata o texto com relação a pagina administração */
+  position: relative;
+  /* list-style-type: none; */
+  /* border: 3px solid #000000; */
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+.fotos_administracao_grupo {
+  display: inline-flex;
+  position: relative;
+  /* border: 3px solid #000000; */
+  /* margin: 0px 0px 0px s0px; */
+}
+.fotos_administracao_subgrupo {
+}
+.sobre_documento_administracao {
+  position: relative;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 15px;
+}
+.img_s4_1 {
+  margin-right: auto;
+  margin-left: auto;
+  margin: 30px;
+  border: 1px solid #ccc;
+  /* max-width: 220px; */
+  /* max-height: 200px; */
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/*.fim_pagina {
+position: absolute;
+display: block;
+/* border: 3px solid #000000; */
+/* margin-left: 90%;
+} */
+
+/* #botao_fim:hover{
+background-color: #A9A9A9;
+} */
+
+/* .bloco_lista_militares { /*Define o estilo da div bloco_lista_militares que formata a lista militares na pagina militares */
+/* position: absolute; */
+/* display: block; */
+/* border: 3px solid #000000; */
+/* margin: 0px 580px 0px 580px; */
+/* position: relative; */
+/* display: block; */
+/* border: 3px solid #000000; */
+/* margin: auto; */
+/* } */
+
+/* .li_tab_mil { /*li lista militar na pagina militar*/
+/* border-style: inset; */
+/* } */
+
+/* .titulo_militares { /*Define o estilo do titulo lista militar na pagina militar */
+/* text-align: center; */
+/* font-family: 'Playfair Display', serif; */
+/* font-size: 22px; */
+/* } */
+
+/* .lista_militares { /*Define o estilo da lista militar na pagina militar */
+/* border-style: double; */
+/*margin-left: 37%;*/
+/* margin: 0 auto; */
+/* } */
+
+/* .imagem_tropa_cimh { Define o estilo da imagem tropa_cimh na pagina index  */
+  /* position: absolute; */
+  /* display: block; */
+  /* margin-left: 25%; */
+/* } */
+/* .blindado_m109_1 { Define o estilo da imagem blindado_m109 na pagina index  */
+/* position: absolute; */
+/* display: block; */
+/* margin-left: 25%; */
+/* } */
+/* .militar01 { /*Define o estilo da imagem militar01 na pagina index  */
+/* position: absolute; */
+/* display: block; */
+/* margin-left: 10%; */
+/* } */

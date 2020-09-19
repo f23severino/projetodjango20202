@@ -1,0 +1,34 @@
+{% extends 'blog/base.html' %}
+{% block title %}Aniversários{% endblock %}
+{% block content %}
+<section class="bloco_descricao_aniversarios">
+  <h2 class="titulo">Aniversários</h2>
+  <!--A tag <strong> é uma tag de frase. Define texto importante.
+  Dica: essa tag não está obsoleta, mas é possível obter um efeito mais rico com o CSS. -->
+  <!-- <strong class="titulo">ANIVERSARIANTES DO C.I.M.H.</strong> -->
+  <br>
+  <div class="bloco_meses_aniversarios">
+    <div class="fotos_meses_aniversarios_subgrupo">
+{% load static %}
+    <a href="/aniversarios11/"><img src="{% static 'imagens/button/janeiro.png' %}" alt="Imagem de um botão que tem escrito nele Janeiro" title="Mês de Janeiro"></a>
+    <a href="/aniversarios12/"><img src="{% static 'imagens/button/fevereiro.png' %}" alt="Imagem de um botão que tem escrito nele Fevereiro" title="Mês de Fevereiro"></a>
+    <a href="/aniversarios13/"><img src="{% static 'imagens/button/marco.png' %}" alt="Imagem de um botão que tem escrito nele Março" title="Mês de Março"></a>
+    <a href="/aniversarios14/"><img src="{% static 'imagens/button/abril.png' %}" alt="Imagem de um botão que tem escrito nele Abril" title="Mês de Abril"></a>
+    <a href="/aniversarios15/"><img src="{% static 'imagens/button/maio.png' %}" alt="Imagem de um botão que tem escrito nele Maio" title="Mês de Maio"></a>
+    <a href="/aniversarios16/"><img src="{% static 'imagens/button/junho.png' %}" alt="Imagem de um botão que tem escrito nele Junho" title="Mês de Junho"></a>
+    <a href="/aniversarios17/"><img src="{% static 'imagens/button/julho.png' %}" alt="Imagem de um botão que tem escrito nele Julho" title="Mês de Julho"></a>
+    <a href="/aniversarios18/"><img src="{% static 'imagens/button/agosto.png' %}" alt="Imagem de um botão que tem escrito nele Agosto" title="Mês de Agosto"></a>
+    <a href="/aniversarios19/"><img src="{% static 'imagens/button/setembro.png' %}" alt="Imagem de um botão que tem escrito nele Setembro" title="Mês de Setembro"></a>
+    <a href="/aniversarios110/"><img src="{% static 'imagens/button/outubro.png' %}" alt="Imagem de um botão que tem escrito nele Outubro" title="Mês de Outubro"></a>
+    <a href="/aniversarios111/"><img src="{% static 'imagens/button/novembro.png' %}" alt="Imagem de um botão que tem escrito nele Novembro" title="Mês de Novembro"></a>
+    <a href="/aniversarios112/"><img src="{% static 'imagens/button/dezembro.png' %}" alt="Imagem de um botão que tem escrito nele Dezembro" title="Mês de Dezembro"></a>
+   </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<!-- </section> -->
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends 'blog/base.html' %}
+{% block title %}Boletins Internos Novembro 2016{% endblock %}
+{% block content %}
+<div  class="bloco_tabela_boletins_2016">
+  <h3 class="titulo_tabela_boletins_2016">BOLETINS DE NOVEMBRO DE 2016</h3>
+  <div class="opcao_voltar_pagina_principal_boletins_2016">
+  {% load static %}
+  <a href="/bi20161/"><img src="{% static 'imagens/button/voltar.png' %}" alt="Imagem de um botão que tem escrito nele "voltar". Clicando neste botão ele faz retornar para página principal dos meses dos boletins, onde mostra todos os meses do ano" title="Opção voltar"></a>
+  </div>
+  <br>
+  <br>
+  <table class="tabela_boletins_2016"> <!--Uma tabela HTML é definida com a <table>tag.-->
+    <tr> <!-- linha -->
+      <th class="th_tab_bi_2016"> ORDEM </th> <!-- Cabeçalho -->
+      <th class="th_tab_bi_2016"> Nº BI </th>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2016_1"> Teste de Link</td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2016_2"> <a href="{% static 'midia/arquivos/cardapio/cardapio.pdf' %}" target="_blank">CARDÁPIO</a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2016_1"> xx </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2016_2"> xx </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2016_1"> xx </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2016_2"> xx </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2016_1"> xx </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2016_2"> xx </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2016_1"> xx </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2016_2"> xx </td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+{% endblock %}

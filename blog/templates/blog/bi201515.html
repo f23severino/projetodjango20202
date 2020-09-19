@@ -1,0 +1,57 @@
+{% extends 'blog/base.html' %}
+{% block title %}Boletins Internos Maio 2015{% endblock %}
+{% block content %}
+<div  class="bloco_tabela_boletins_2015">
+  <h3 class="titulo_tabela_boletins_2015">BOLETINS DE MAIO DE 2015</h3>
+  <div class="opcao_voltar_pagina_principal_boletins_2015">
+  {% load static %}
+  <a href="/bi20151/"><img src="{% static 'imagens/button/voltar.png' %}" alt="Imagem de um botão que tem escrito nele "voltar". Clicando neste botão ele faz retornar para página principal dos meses dos boletins, onde mostra todos os meses do ano" title="Opção voltar"></a>
+  </div>
+  <br>
+  <br>
+  <table class="tabela_boletins_2015"> <!--Uma tabela HTML é definida com a <table>tag.-->
+    <tr> <!-- linha -->
+      <th class="th_tab_bi_2015"> ORDEM </th> <!-- Cabeçalho -->
+      <th class="th_tab_bi_2015"> Nº BI </th>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 37 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/maio2015/BI_037_5_Mai_15.pdf' %}" target="_blank"> BI DIA 05 MAI 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 38 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/maio2015/BI_038_8_Mai_15.pdf' %}" target="_blank"> BI DIA 08 MAI 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 39 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/maio2015/BI_039_12_Mai_15.pdf' %}" target="_blank"> BI DIA 12 MAI 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 40 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/maio2015/BI_040_15_Mai_15.pdf' %}" target="_blank"> BI DIA 15 MAI 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 41 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/maio2015/BI_041_19_Mai_15.pdf' %}" target="_blank"> BI DIA 19 MAI 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 42 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/maio2015/BI_042_22_Mai_15.pdf' %}" target="_blank"> BI DIA 22 MAI 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 43 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/maio2015/BI_043_26_Mai_15.pdf' %}" target="_blank"> BI DIA 26 MAI 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 44 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/maio2015/BI_044_29_Mai_15.pdf' %}" target="_blank"> BI DIA 29 MAI 2015 </a> </td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+{% endblock %}

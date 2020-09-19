@@ -1,0 +1,61 @@
+{% extends 'blog/base.html' %}
+{% block title %}Boletins Internos Fevereiro 2015{% endblock %}
+{% block content %}
+<div  class="bloco_tabela_boletins_2015">
+  <h3 class="titulo_tabela_boletins_2015">BOLETINS DE FEVEREIRO DE 2015</h3>
+  <div class="opcao_voltar_pagina_principal_boletins_2015">
+  {% load static %}
+  <a href="/bi20151/"><img src="{% static 'imagens/button/voltar.png' %}" alt="Imagem de um botão que tem escrito nele "voltar". Clicando neste botão ele faz retornar para página principal dos meses dos boletins, onde mostra todos os meses do ano" title="Opção voltar"></a>
+  </div>
+  <br>
+  <br>
+  <table class="tabela_boletins_2015"> <!--Uma tabela HTML é definida com a <table>tag.-->
+    <tr> <!-- linha -->
+      <th class="th_tab_bi_2015"> ORDEM </th> <!-- Cabeçalho -->
+      <th class="th_tab_bi_2015"> Nº BI </th>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 10 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/fevereiro2015/BI_010_03_Fev_15.pdf' %}" target="_blank"> BI DIA 03 FEV 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 11 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/fevereiro2015/BI_011_6_Fev_15.pdf' %}" target="_blank"> BI DIA 06 FEV 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 12 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/fevereiro2015/BI_012_10_Fev_15.pdf' %}" target="_blank"> BI DIA 10 FEV 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 13 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/fevereiro2015/BI_013_11_Fev_15.pdf' %}" target="_blank"> BI DIA 11 FEV 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 14 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/fevereiro2015/BI_014_13_Fev_15.pdf' %}" target="_blank"> BI DIA 13 FEV 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 15 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/fevereiro2015/BI_015_18_Fev_15.pdf' %}" target="_blank"> BI DIA 18 FEV 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 16 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/fevereiro2015/BI_016_20_Fev_15.pdf' %}" target="_blank"> BI DIA 20 FEV 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 17 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/fevereiro2015/BI_017_24_Fev_15.pdf' %}" target="_blank"> BI DIA 24 FEV 2015 </a> </td>
+    </tr>
+    <tr>
+      <td class="td_tab_bi_2015_1"> 18 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_bi_2015_2"> <a href="{% static 'midia/arquivos/boletins/bi2015/fevereiro2015/BI_018_27_Fev_15.pdf' %}" target="_blank"> BI DIA 27 FEV 2015 </a> </td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+{% endblock %}

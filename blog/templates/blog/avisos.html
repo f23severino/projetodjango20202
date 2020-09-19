@@ -1,0 +1,38 @@
+{% extends 'blog/base.html' %}
+{% block title %}Avisos{% endblock %}
+{% block content %}
+<section class="bloco_descricao_avisos">
+  <h2 class="titulo">Avisos e Informativos</h2>
+  <!--A tag <strong> é uma tag de frase. Define texto importante.
+  Dica: essa tag não está obsoleta, mas é possível obter um efeito mais rico com o CSS. -->
+  <!-- <strong>AVISOS IMPORTANTES</strong> -->
+  <br>
+  <br>
+  <div class="fotos_avisos_grupo">
+    <div class="fotos_avisos_subgrupo">
+      {% load static %}
+      <a href="http://www.citex.eb.mil.br/index.php/component/content/article?id=35" target="_blank">
+        <img class="img_bda_1" src="{% static 'midia/imagens/avisos/amconectada.jpg' %}" alt="Imagem na diagonal em forma de folha, dentro dela tem as iniciais A e C, que significam Amazônia Conectada" title="Amazônia Conectada">
+      </a>
+    </div>
+    <div class="fotos_avisos_subgrupo">
+      {% load static %}
+      <a href="http://www.citex.eb.mil.br/index.php/component/content/article?id=35" target="_blank">
+        <img class="img_bda_1" src="{% static 'midia/imagens/avisos/amconectada.jpg' %}" alt="Imagem na diagonal em forma de folha, dentro dela tem as iniciais A e C, que significam Amazônia Conectada" title="Amazônia Conectada">
+      </a>
+    </div>
+    <div class="fotos_avisos_subgrupo">
+      {% load static %}
+      <a href="http://www.citex.eb.mil.br/index.php/component/content/article?id=35" target="_blank">
+        <img class="img_bda_1" src="{% static 'midia/imagens/avisos/amconectada.jpg' %}" alt="Imagem na diagonal em forma de folha, dentro dela tem as iniciais A e C, que significam Amazônia Conectada" title="Amazônia Conectada">
+      </a>
+    </div>
+    <div class="fotos_avisos_subgrupo">
+      {% load static %}
+      <a href="http://www.citex.eb.mil.br/index.php/component/content/article?id=35" target="_blank">
+        <img class="img_bda_1" src="{% static 'midia/imagens/avisos/amconectada.jpg' %}" alt="Imagem na diagonal em forma de folha, dentro dela tem as iniciais A e C, que significam Amazônia Conectada" title="Amazônia Conectada">
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}

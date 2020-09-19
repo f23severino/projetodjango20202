@@ -1,0 +1,45 @@
+{% extends 'blog/base.html' %}
+{% block title %}AniversáriosJulho{% endblock %}
+{% block content %}
+<div  class="bloco_tabela_aniversariantes">
+  <h3 class="titulo_tabela_aniversariantes">MILITARES DO CIMH</h3>
+  <div class="opcao_voltar_pagina_principal_aniversarios">
+  {% load static %}
+  <a href="/aniversarios1/"><img src="{% static 'imagens/button/voltar.png' %}" alt="Imagem de um botão que tem escrito nele voltar. Clicando neste botão ele faz retornar para página principal dos aniversários, onde mostra todos os meses do ano" title="Opção voltar"></a>
+  </div>
+  <br>
+  <br>
+  <table class="tabela_aniversariantes"> <!--Uma tabela HTML é definida com a <table>tag.-->
+    <tr> <!-- linha -->
+      <th class="th_tab_ani"> DIA </th> <!-- Cabeçalho -->
+      <th class="th_tab_ani"> POST/NOME </th>
+    </tr>
+    <tr>
+      <td class="td_tab_ani_1"> 04 </td> <!-- Célula/Coluna-->
+      <td class="td_tab_ani_2"> Cb EP Prado </td>
+    </tr>
+    <tr>
+      <td class="td_tab_ani_1"> 07 </td>
+      <td class="td_tab_ani_2"> Sd EV Gonçanlves </td>
+    </tr>
+    <tr>
+      <td class="td_tab_ani_1"> 14 </td>
+      <td class="td_tab_ani_2"> Sd EV Adur </td>
+    </tr>
+    <tr>
+      <td class="td_tab_ani_1"> 26 </td>
+      <td class="td_tab_ani_2"> Sd EV Perdoná </td>
+    </tr>
+    <tr>
+      <td class="td_tab_ani_1"> 26 </td>
+      <td class="td_tab_ani_2"> Sd EV Soares </td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div>
+{% endblock %}

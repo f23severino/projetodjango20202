@@ -1,0 +1,10 @@
+*.pyc
+*~
+__pycache__
+myvenv
+meuvenv2
+db.sqlite3
+/static
+.DS_Store
+comandos2.txt
+

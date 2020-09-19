@@ -1,0 +1,35 @@
+{% extends 'blog/base.html' %}
+{% block title %}Administração{% endblock %}
+{% block content %}
+<section class="bloco_descricao_administracao">
+  <h2 class="titulo">Seção Administrativa do CIMH</h2>
+  <!--A tag <strong> é uma tag de frase. Define texto importante.
+  Dica: essa tag não está obsoleta, mas é possível obter um efeito mais rico com o CSS. -->
+  <!-- <strong>AVISOS IMPORTANTES</strong> -->
+  <br>
+  <br>
+  <div class="fotos_administracao_grupo">
+    <div class="fotos_administracao_subgrupo">
+      {% load static %}
+      <a href="{% static 'midia/arquivos/s4/preceitosadministrativos/doc.pdf' %}" target="_blank">
+        <img class="img_s4_1" src="{% static 'midia/imagens/s4/preceitos-administrador-original-10.png' %}" alt="Imagem da capa do Manual dos Dez Preceitos do Agente Administrativo" title="Preceitos do Administrador">
+      </a>
+      <p class="sobre_documento_administracao">Os Dez Preceitos para os <br> Agentes da Administração </p>
+    </div>
+    <div class="fotos_administracao_subgrupo">
+      {% load static %}
+      <a href="{% static 'midia/arquivos/s4/preceitosadministrativos/doc.pdf' %}" target="_blank">
+        <img class="img_s4_1" src="{% static 'midia/imagens/s4/preceitos-administrador-original-10.png' %}" alt="Imagem da capa do Manual dos Dez Preceitos do Agente Administrativo" title="Preceitos do Administrador">
+      </a>
+      <p class="sobre_documento_administracao">Os Dez Preceitos para os <br> Agentes da Administração </p>
+    </div>
+    <div class="fotos_administracao_subgrupo">
+      {% load static %}
+      <a href="{% static 'midia/arquivos/s4/preceitosadministrativos/doc.pdf' %}" target="_blank">
+        <img class="img_s4_1" src="{% static 'midia/imagens/s4/preceitos-administrador-original-10.png' %}" alt="Imagem da capa do Manual dos Dez Preceitos do Agente Administrativo" title="Preceitos do Administrador">
+      </a>
+      <p class="sobre_documento_administracao">Os Dez Preceitos para os <br> Agentes da Administração </p>
+    </div>
+  </div>
+</section>
+{% endblock %}

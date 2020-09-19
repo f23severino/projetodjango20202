@@ -1,0 +1,36 @@
+{% extends 'blog/base.html' %}
+{% block title %}Inteligência{% endblock %}
+{% block content %}
+<section class="bloco_descricao_inteligencia">
+  <h2 class="titulo">Seção de Inteligência do CIMH</h2>
+  <!--A tag <strong> é uma tag de frase. Define texto importante.
+  Dica: essa tag não está obsoleta, mas é possível obter um efeito mais rico com o CSS. -->
+  <!-- <strong>AVISOS IMPORTANTES</strong> -->
+  <br>
+  <br>
+  <div class="fotos_inteligencia_grupo">
+    <div class="fotos_inteligencia_subgrupo">
+      {% load static %}
+      <a href="{% static 'midia/arquivos/s2/cartilha_segurana_redes_sociais_e_aplicativos_de_troca_de_msg/doc.pdf' %}" target="_blank">
+        <img class="img_s2_1" src="{% static 'midia/imagens/s2/cartilha_segurana_redes_sociais_e_aplicativos_de_troca_de_msg-2.png' %}" alt="Imagem da capa da Cartilha de Segurança de Redes Sociais e Aplicativos de Mensagens" title="Cartilha de Segurança 1">
+      </a>
+      <p class="sobre_documento_inteligencia">Cartilha de Segurança de Redes <br> Sociais e Aplicativos de Mensagens </p>
+      <!-- <p class="sobre_documento_inteligencia">Sociais e Aplicativos de Mensagens</p> -->
+    </div>
+    <div class="fotos_inteligencia_subgrupo">
+      {% load static %}
+      <a href="{% static 'midia/arquivos/s2/cartilha_segurana_redes_sociais_e_aplicativos_de_troca_de_msg/doc.pdf' %}" target="_blank">
+        <img class="img_s2_1" src="{% static 'midia/imagens/s2/cartilha_segurana_redes_sociais_e_aplicativos_de_troca_de_msg-2.png' %}" alt="Imagem da capa da Cartilha de Segurança de Redes Sociais e Aplicativos de Mensagens" title="Cartilha de Segurança 1">
+      </a>
+      <p class="sobre_documento_inteligencia">Cartilha de Segurança de Redes <br> Sociais e Aplicativos de Mensagens </p>
+    </div>
+    <div class="fotos_inteligencia_subgrupo">
+      {% load static %}
+      <a href="{% static 'midia/arquivos/s2/cartilha_segurana_redes_sociais_e_aplicativos_de_troca_de_msg/doc.pdf' %}" target="_blank">
+        <img class="img_s2_1" src="{% static 'midia/imagens/s2/cartilha_segurana_redes_sociais_e_aplicativos_de_troca_de_msg-2.png' %}" alt="Imagem da capa da Cartilha de Segurança de Redes Sociais e Aplicativos de Mensagens" title="Cartilha de Segurança 1">
+      </a>
+      <p class="sobre_documento_inteligencia">Cartilha de Segurança de Redes <br> Sociais e Aplicativos de Mensagens </p>
+    </div>
+  </div>
+</section>
+{% endblock %}
